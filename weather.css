@@ -1,27 +1,40 @@
 body{
     margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(./images/background.jpg);
 }
 
 .zipcode {
     display: flex;
+    height: 200px;
+    width: 900px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border-style: solid;
+    background-image: url(./images/cloud2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px 400px
 }
 
 .display {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    row-gap: px;
     margin-top: 10px;
+
 }
 
 .forecast {
     display: flex;
     width: 50%;
-    border-style: solid;
     flex-direction: column;
     align-items: center;
+    background-image: url(./images/cloud2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 550px 400px
 }
 
 .temperature {

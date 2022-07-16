@@ -11,10 +11,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/cloud2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 900px 400px
 }
 
 .display {
@@ -31,10 +27,6 @@ body{
     width: 50%;
     flex-direction: column;
     align-items: center;
-    background-image: url(./images/cloud2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 550px 400px
 }
 
 .temperature {
